@@ -1,0 +1,51 @@
+body {
+    background-color: lightblue;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+  }
+  
+  header {
+    padding: 5px;
+    font-size: 2em;
+    display: block;
+    text-align: center;
+  }
+  
+  nav {
+    text-align: center;
+  }
+  
+  nav ul {
+    padding: 20px;
+    
+    border-bottom:5px solid black ;
+    list-style-type: none;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav li a {
+    display: block;
+    height: 25px;
+    padding: 12px 18px 8px 18px;
+  }
+  
+  a {
+    color: green;
+  }
+
+  ol {
+      list-style-type:none;
+      text-align: center;
+  }
+  
+  img {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+  }

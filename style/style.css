@@ -1,0 +1,94 @@
+:root {
+  --primary-color: #222222;
+  --secondary-color: #eeede7;
+  --neutral-color: #fbecda;
+}
+
+body {
+  background-color: var(--neutral-color);
+  font-family: "Orbitron", Lato, "PT Sans", -apple-system, BlinkMacSystemFont,
+    Roboto, Ubuntu, "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+}
+
+.wrapper {
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 90vw;
+}
+
+.main {
+  /* display: grid; */
+  /* grid-template-columns: 1fr 2fr 2fr 1fr; */
+  /* grid-template-rows: 1fr 2fr 2fr 1fr; */
+  /* grid-gap: 0.4rem; */
+  flex: 1 1 100%;
+}
+
+.nav {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.nav__element {
+  flex: 1 1 auto;
+  list-style: none;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+}
+
+.main__header {
+}
+
+.main__img {
+  background-image: url("/img/Charles_Babbage_-_1860.jpg");
+  background-size: cover;
+  background-position: top center;
+  margin: 0 auto;
+  height: 600px;
+  min-height: 100px;
+}
+
+.main__header {
+}
+
+.main__text {
+  padding: 0 1rem 0.5rem 1rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 22rem) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body,
+div,
+p,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline: none;
+}
