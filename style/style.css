@@ -44,9 +44,6 @@ body {
   text-align: center;
 }
 
-.main__header {
-}
-
 .main__img {
   background-image: url("/img/Charles_Babbage_-_1860.jpg");
   background-size: cover;
@@ -54,9 +51,6 @@ body {
   margin: 0 auto;
   height: 600px;
   min-height: 100px;
-}
-
-.main__header {
 }
 
 .main__text {
